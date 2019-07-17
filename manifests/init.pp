@@ -160,7 +160,7 @@ class proxysql (
   String $service_ensure = $proxysql::params::service_ensure,
 
   String $datadir = $proxysql::params::datadir,
-  Stdlib::Filemode $datadir_mode = $proxysql::params::datadir_mode,
+  String $datadir_mode = $proxysql::params::datadir_mode,
 
   String $listen_ip = $proxysql::params::listen_ip,
   Integer $listen_port = $proxysql::params::listen_port,
